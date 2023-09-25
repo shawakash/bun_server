@@ -1,0 +1,16 @@
+{
+  "name": "bun_server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.6",
+    "bun-types": "latest",
+    "figlet": "^1.6.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
